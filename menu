@@ -1,0 +1,104 @@
+<h1 style="margin-top: 20px;">อาหารทานเล่น</h1>
+                    <div class="menusec">
+                        
+                        <label class="group-input">
+                            <input type="checkbox" value="เกี๊ยวซ่า 12 ชิ้น" class="menu" onchange="checkedItem(this)"
+                                data-price="164">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/1LF4YSYG.png" alt="">
+                            </div>
+                            <h3>164.-</h3>
+                            <h2>เกี๊ยวซ่า 12 ชิ้น</h2>
+                            <p>เกี๊ยวซ่า ไส้หมู</p>
+                        </label>
+
+                         <label class="group-input">
+                            <input type="checkbox" value="คาราอะเกะ 8 ชิ้น" class="menu" onchange="checkedItem(this)"
+                                data-price="188">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JXB6CGZH.png" alt="">
+                            </div>
+                            <h3>188.-</h3>
+                            <h2>คาราอะเกะ 8 ชิ้น</h2>
+                            <p>ไก่ทอดสไตล์ญี่ปุ่น</p>
+                        </label>
+
+                          <label class="group-input">
+                            <input type="checkbox" value="เอบิโรล" class="menu" onchange="checkedItem(this)"
+                                data-price="83">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JXB6CGZH.png" alt="">
+                            </div>
+                            <h3>83.-</h3>
+                            <h2>เอบิโรล</h2>
+                            <p>ปอเปี๊ยะกุ้ง</p>
+                        </label>
+
+                        <label class="group-input">
+                            <input type="checkbox" value="ทาโกะยากิเกี๊ยวซ่า 12 ชิ้น" class="menu" onchange="checkedItem(this)"
+                                data-price="95">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/9Q99I662.png" alt="">
+                            </div>
+                            <h3>95.-</h3>
+                            <h2>ทาโกะยากิ</h2>
+                            <p>ทาโกะยากิไส้ปลาหมึกยักษ์</p>
+                        </label>
+
+                         <label class="group-input">
+                            <input type="checkbox" value="คาโมะนิ" class="menu" onchange="checkedItem(this)"
+                                data-price="108">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/PRREX63T.png" alt="">
+                            </div>
+                            <h3>108.-</h3>
+                            <h2>คาโมะนิ</h2>
+                            <p>เป็ดตุ๋นเห็ดหอม</p>
+                        </label>
+
+                          <label class="group-input">
+                            <input type="checkbox" value="ลูกชิ้นปลาหมายเลข 8" class="menu" onchange="checkedItem(this)"
+                                data-price="53">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/O92RX6WM.png" alt="">
+                            </div>
+                            <h3>53.-</h3>
+                            <h2>ลูกชิ้นปลาหมายเลข 8</h2>
+                            <p>ลูกชิ้นปลาหมายเลข 8</p>
+                        </label>
+
+                        <label class="group-input">
+                            <input type="checkbox" value="โพเทโท้" class="menu" onchange="checkedItem(this)"
+                                data-price="63">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/KEWFOO8L.png" alt="">
+                            </div>
+                            <h3>63.-</h3>
+                            <h2>โพเทโท้</h2>
+                            <p>มันฝรั่งทอด</p>
+                        </label>
+
+                         <label class="group-input">
+                            <input type="checkbox" value="เทบะ คาระ" class="menu" onchange="checkedItem(this)"
+                                data-price="83">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/KV8D4RNO.png" alt="">
+                            </div>
+                            <h3>83.-</h3>
+                            <h2>เทบะ คาระ</h2>
+                            <p>ปีกไก่ทอดราดซอส</p>
+                        </label>
+
+                          <label class="group-input">
+                            <input type="checkbox" value="เทริยากิ ชิกเก้น" class="menu" onchange="checkedItem(this)"
+                                data-price="105">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/R2U0V99E.png" alt="">
+                            </div>
+                            <h3>105.-</h3>
+                            <h2>เทริยากิ ชิกเก้น</h2>
+                            <p>ไก่ย่างเทริยากิ</p>
+                        </label>
+    
+  
+                    </div>

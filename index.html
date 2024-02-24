@@ -1,12 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <main>
+        <section id="Order">
+
+            <div class="container" id="menu">
+                <div class="header-group">
+                    <h1>สั่งอาหาร ราเมนอาโนโซรัส</h1>
+                    <h3>ราเมนอาโนโซรัส อร่อยไม่ซ้ำ จำสูตรไม่ได้ By อร่อยถูกใจ อนามัยถูกลืม ปิ้วๆ</h3>
+                </div>
+
+                <div id="frm-input">
+                    <h1>เมนูฮิต</h1>
+                    <div class="menusec">
+                        
+                        <label class="group-input">
+                            <input type="checkbox" value="ต้มยำกุ้ง ราเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="133">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JYTEAY54.png" alt="">
+                            </div>
+                            <h3>133.-</h3>
+                            <h2>ต้มยำกุ้ง ราเมน</h2>
+                            <p>ราเมนในน้ำซุปต้มยำกุ้ง</p>
+                        </label>
     
+                        <label class="group-input">
+                            <input type="checkbox" value="ไคเซนเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="135">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/GLEWDEBE.png" alt="" style="width: 170px;">
+                            </div>
+                            <h3>135.-</h3>
+                            <h2>ไคเซนเมน</h2>
+                            <p>ราเมนซีฟู้ด เสิร์ฟพร้อมผักกาดแก้ว ราดด้วยซอสไคเซน</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="ซารุ ราเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="103">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/RSII7T7L.png" alt="">
+                            </div>
+                            <h3>103.-</h3>
+                            <h2>ซารุ ราเมน</h2>
+                            <p>ราเมนเย็นสไตล์ญี่ปุ่นทานแบบจุ่มลงในซอสซารุ สูตรต้นตำรับฮะจิบัง ราเมน</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="เมนชิ คัตสึ" class="menu" onchange="checkedItem(this)"
+                                data-price="90">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/5YS97G6D.png" alt="">
+                            </div>
+                            <h3>90.-</h3>
+                            <h2>เมนชิ คัตสึ</h2>
+                            <p>หมูบดทอดสไตล์ญี่ปุ่น พร้อมซอสสูตรพิเศษ 2 รสชาติ</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="เกี๊ยวซ่า 6 ชิ้น" class="menu" onchange="checkedItem(this)"
+                                data-price="83">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/1LF4YSYG.png" alt="">
+                            </div>
+                            <h3>83.-</h3>
+                            <h2>เกี๊ยวซ่า 6 ชิ้น</h2>
+                            <p>เกี๊ยวซ่าไส้หมู</p>
+                        </label>
+
+                        <label class="group-input">
+                            <input type="checkbox" value="คาราอะเกะ" class="menu" onchange="checkedItem(this)" id="001"
+                                data-price="95">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JXB6CGZH.png" alt="">
+                            </div>
+                            <h3>95.-</h3>
+                            <h2>คาราอะเกะ</h2>
+                            <p>ไก่ทอดสไตล์ญี่ปุ่น</p>
+                        </label>
+                    </div>
+
+                    <h1 style="margin-top: 20px;">อาหารจานหลัก</h1>
+                    <div class="menusec">
+                        
+                        <label class="group-input">
+                            <input type="checkbox" value="ทงโคะสึ โชยุ ราเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="108">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/5WIN3CZY.png" alt="">
+                            </div>
+                            <h3>108.-</h3>
+                            <h2>ทงโคะสึ โชยุ ราเมน</h2>
+                            <p>ราเมนในซุปกระดูกหมู รสซีอิ๊วญี่ปุ่นหน้าหมูชาชู</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="โกโมะคึ ราเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="133">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/8NRG7WRY.png" alt="">
+                            </div>
+                            <h3>133.-</h3>
+                            <h2>โกโมะคึ ราเมน</h2>
+                            <p>ราเมนราดหน้าทะเลญี่ปุ่น</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="ต้มยำ ชาชูเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="108">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/5X0FZ408.png" alt="">
+                            </div>
+                            <h3>108.-</h3>
+                            <h2>ต้มยำ ชาชูเมน</h2>
+                            <p>ราเมนในน้ำซุปต้มยำหน้าหมูชาชู</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="ฮะจังเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="83">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/4FVDPZCA.png" alt="">
+                            </div>
+                            <h3>83.-</h3>
+                            <h2>ฮะจังเมน</h2>
+                            <p>ราเมนสูตรต้นตำรับฮะจิบัง ราเมน</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="ชาชูเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="108">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/1VJRBJZX.png" alt="">
+                            </div>
+                            <h3>108.-</h3>
+                            <h2>ชาชูเมน</h2>
+                            <p>ราเมนหน้าหมูชาชู</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="ทงโคะสึ ทันตัมเมน" class="menu" onchange="checkedItem(this)" 
+                                data-price="105">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/XPJBAH4C.png" alt="">
+                            </div>
+                            <h3>105.-</h3>
+                            <h2>ทงโคะสึ ทันตัมเมน</h2>
+                            <p>ราเมนน้ำซุปกระดูกหมู หน้าซอสหมูสับและไก่สับ</p>
+                        </label>
+
+                        <label class="group-input">
+                            <input type="checkbox" value="โกมะ ทันตัมเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="105">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/YZDSP9BU.png" alt="">
+                            </div>
+                            <h3>105.-</h3>
+                            <h2>โกมะ ทันตัมเมน</h2>
+                            <p>ราเมนในซุปงาขาวคั่ว เสิร์ฟพร้อมซอสหมูสับและไก่สับปรุงรส</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="เทริยากิ ชิกเก้น ราเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="108">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/2MIZ6ORA.png" alt="">
+                            </div>
+                            <h3>108.-</h3>
+                            <h2>เทริยากิ ชิกเก้น ราเมน</h2>
+                            <p>ราเมนหน้าไก่ย่างเทริยากิ สูตรต้นตำรับจากญี่ปุ่น</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="เรเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="118">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JPJO1ET9.png" alt="">
+                            </div>
+                            <h3>118.-</h3>
+                            <h2>เรเมน</h2>
+                            <p>ราเมนเย็นหน้าหมูชาชู กุ้ง แฮม ไข่ ราดซอสเลมอน</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="เนงิ ชาชูเมน" class="menu" onchange="checkedItem(this)"
+                                data-price="98">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/UYYQ6DWY.png" alt="">
+                            </div>
+                            <h3>98.-</h3>
+                            <h2>เนงิ ชาชูเมน</h2>
+                            <p>ราเมนแห้งหน้าหมูชาชู สาหร่ายโนริ ราดซอสน้ำมันพริกเผา</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="ชาชูเมนยากิโซบะ" class="menu" onchange="checkedItem(this)"
+                                data-price="105">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JATR42MA.png" alt="">
+                            </div>
+                            <h3>105.-</h3>
+                            <h2>ยากิโซบะ</h2>
+                            <p>ราเมนผัดผัก ไก่ ปลาหมึก และเห็ดหูหนู ซอสยากิโซบะ</p>
+                        </label>
+    
+                        <label class="group-input">
+                            <input type="checkbox" value="คาราเมน" class="menu" onchange="checkedItem(this)" 
+                                data-price="103">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/7KQ2J52L.png" alt="">
+                            </div>
+                            <h3>103.-</h3>
+                            <h2>คาราเมน</h2>
+                            <p>ราเมนแห้งราดซอสหมูสับ และไก่สับ</p>
+                        </label>
+                    </div>
+
+                    <h1 style="margin-top: 20px;">อาหารทานเล่น</h1>
+                    <div class="menusec">
+                        
+                        <label class="group-input">
+                            <input type="checkbox" value="เกี๊ยวซ่า 12 ชิ้น" class="menu" onchange="checkedItem(this)"
+                                data-price="164">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/1LF4YSYG.png" alt="">
+                            </div>
+                            <h3>164.-</h3>
+                            <h2>เกี๊ยวซ่า 12 ชิ้น</h2>
+                            <p>เกี๊ยวซ่า ไส้หมู</p>
+                        </label>
+
+                         <label class="group-input">
+                            <input type="checkbox" value="คาราอะเกะ 8 ชิ้น" class="menu" onchange="checkedItem(this)"
+                                data-price="188">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JXB6CGZH.png" alt="">
+                            </div>
+                            <h3>188.-</h3>
+                            <h2>คาราอะเกะ 8 ชิ้น</h2>
+                            <p>ไก่ทอดสไตล์ญี่ปุ่น</p>
+                        </label>
+
+                          <label class="group-input">
+                            <input type="checkbox" value="เอบิโรล" class="menu" onchange="checkedItem(this)"
+                                data-price="83">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/JXB6CGZH.png" alt="">
+                            </div>
+                            <h3>83.-</h3>
+                            <h2>เอบิโรล</h2>
+                            <p>ปอเปี๊ยะกุ้ง</p>
+                        </label>
+
+                        <label class="group-input">
+                            <input type="checkbox" value="ทาโกะยากิเกี๊ยวซ่า 12 ชิ้น" class="menu" onchange="checkedItem(this)"
+                                data-price="95">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/9Q99I662.png" alt="">
+                            </div>
+                            <h3>95.-</h3>
+                            <h2>ทาโกะยากิ</h2>
+                            <p>ทาโกะยากิไส้ปลาหมึกยักษ์</p>
+                        </label>
+
+                         <label class="group-input">
+                            <input type="checkbox" value="คาโมะนิ" class="menu" onchange="checkedItem(this)"
+                                data-price="108">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/PRREX63T.png" alt="">
+                            </div>
+                            <h3>108.-</h3>
+                            <h2>คาโมะนิ</h2>
+                            <p>เป็ดตุ๋นเห็ดหอม</p>
+                        </label>
+
+                          <label class="group-input">
+                            <input type="checkbox" value="ลูกชิ้นปลาหมายเลข 8" class="menu" onchange="checkedItem(this)"
+                                data-price="53">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/O92RX6WM.png" alt="">
+                            </div>
+                            <h3>53.-</h3>
+                            <h2>ลูกชิ้นปลาหมายเลข 8</h2>
+                            <p>ลูกชิ้นปลาหมายเลข 8</p>
+                        </label>
+
+                        <label class="group-input">
+                            <input type="checkbox" value="โพเทโท้" class="menu" onchange="checkedItem(this)"
+                                data-price="63">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/KEWFOO8L.png" alt="">
+                            </div>
+                            <h3>63.-</h3>
+                            <h2>โพเทโท้</h2>
+                            <p>มันฝรั่งทอด</p>
+                        </label>
+
+                         <label class="group-input">
+                            <input type="checkbox" value="เทบะ คาระ" class="menu" onchange="checkedItem(this)"
+                                data-price="83">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/KV8D4RNO.png" alt="">
+                            </div>
+                            <h3>83.-</h3>
+                            <h2>เทบะ คาระ</h2>
+                            <p>ปีกไก่ทอดราดซอส</p>
+                        </label>
+
+                          <label class="group-input">
+                            <input type="checkbox" value="เทริยากิ ชิกเก้น" class="menu" onchange="checkedItem(this)"
+                                data-price="105">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://www.hachiban.co.th/_files/product/full/R2U0V99E.png" alt="">
+                            </div>
+                            <h3>105.-</h3>
+                            <h2>เทริยากิ ชิกเก้น</h2>
+                            <p>ไก่ย่างเทริยากิ</p>
+                        </label>
+    
+  
+                    </div>
+
+
+
+
+
+
+                </div>
+
+                
+
+                <div id="model" style="display: none;">
+                    <div class="model-box">
+                        <div class="model-header">
+                        <h1>สั่งอาหารสำเร็จ</h1>
+                        <button onclick="closeModel()">ปิด</button>
+                    </div>
+
+                    <div class="model-body">
+                        <img src="badge-check.png" alt="" style="width: 82px;">
+                        <h1>เลขที่คำสั่งซื้อ <span id="orderID"></span></h1>
+                        <p>ส่งออเดอร์ไปยังครัวแล้ว รออาหาร 5 - 15 นาที</p>
+                        <div id="order-summary" style="width: 80%;">
+                        </div>
+                       <hr style="width: 80%;border: dashed 0.5px #8f8f8f;">
+                       <div id="order-list">
+                        <div class="group-txt">
+                            <h3>สินค้ารวม</h3>
+                            <h3><span id="qty-summary"></span> รายการ</h3>
+                        </div>
+                        <div class="group-txt">
+                            <h3>ยอดสุทธิ</h3>
+                            <h3><span id="price-summary"></span>฿</h3>
+                        </div>
+                       </div>
+                       <hr style="width: 80%;border: solid 0.2px #888888;">
+                       <hr style="width: 80%;border: solid 1px #888888; margin-top: 2px;">
+                        <h5>ขอบคุณที่ใช้บริการ ขอให้เป็นมื้อที่อร่อยนะครับ</h5>
+                        <h6>ราเมนอาริมาโนโซรัสอิอิ อร่อยไม่ซ้ำ จำสูตรไม่ได้ By อร่อยถูกใจ อนามัยถูกลืม ปิ้วๆ</h6>
+                        
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <section id="control">
+                    <div class="txt">
+                        <h3 style="display: flex; align-items: center; color: #fff;">
+                            ยอดสินค้า <div class="Htxt" id="QTY">0</div> รายการ
+                        </h3>
+
+                        <h3 style="display: flex; align-items: center; color: #fff;">
+                            ราคาสุทธิ <div class="Htxt" id="price">0</div> บาท
+                        </h3>
+                    </div>
+                    <button type="button" onclick="Sendorder()">สั่ง</button>
+                </section>
+
+            </div>
+
+
+        </section>
+
+
+
+        <section id="kitchen">
+            <div class="container">
+                <div class="header-group">
+                    <h1 style="background-color: #e88853;">ออเดอร์ห้องครัว</h1>
+                    <p style="margin-top: 10px;">เมื่อทำออเดอร์เสร็จแล้วให้กด <span  style="color: #e88853;">"ส่งออเดอร์"</span></p>
+                    <div class="summary">
+                    <h3 style="background-color: #009b00;">เสร็จแล้ว <span id="complete-order">0</span> รายการ</h3>
+                    <h3  style="background-color: #D0483C;">เหลืออีก <span id="left-order">0</span> รายการ</h3>
+                    <h3 style="background-color: #05008f;">ออเดอร์ทั้งหมด <span id="sum-order">0</span> รายการ</h3>
+                    
+                </div>
+                </div>
+                
+                <div class="kitchen-bord" id="bord">
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
 </body>
+<script src="script.js"></script>
+
 </html>
